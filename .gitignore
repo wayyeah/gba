@@ -8,7 +8,7 @@ venv/
 *.idea/
 *.so
 .pth
-*.sh
+
 *.pth
 *.pkl
 *.zip

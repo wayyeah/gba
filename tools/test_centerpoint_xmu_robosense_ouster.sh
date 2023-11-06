@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 nohup python test.py --cfg_file cfgs/xmu_ouster_models/centerpoint.yaml --ckpt /home/djh/projects/xmuda/OpenPCDet/output/xmu_robosense_models/centerpoint/default/ckpt/checkpoint_epoch_80.pth  --launcher none --workers 1 --batch_size 2 > centerpoint_test_xmu_robosense_ouster.log 2>&1 &

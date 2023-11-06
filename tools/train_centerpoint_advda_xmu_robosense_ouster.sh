@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python train_adv_da.py --cfg_file cfgs/ADV_DA/xmu_robosense_ouster/da_centerpoint.yaml --launcher none --workers 1 --epochs 120 --batch_size 1 --source_name xmu_robosense --extra_tag zero > centerpoint_advda_train_xmu_robosense_ouster.log 2>&1 &`````````````

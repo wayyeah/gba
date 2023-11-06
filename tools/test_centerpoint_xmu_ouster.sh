@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 nohup python test.py --cfg_file cfgs_fourclass/xmu_ouster_models/centerpoint.yaml --ckpt_dir /home/djh/projects/xmuda/OpenPCDet/output/xmu_ouster_models/centerpoint/one/ckpt --eval_all  --launcher none --workers 1 --batch_size 4 --extra_tag one > centerpoint_test_xmu_ouster.log 2>&1 &

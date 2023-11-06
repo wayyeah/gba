@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 nohup python test.py --cfg_file cfgs/xmu_robosense_models/centerpoint.yaml --ckpt_dir /home/djh/projects/xmuda/OpenPCDet/output/xmu_robosense_models/centerpoint/one/ckpt --eval_all  --launcher none --workers 1 --batch_size 4 --extra_tag one > centerpoint_test_xmu_robosense.log 2>&1 &
